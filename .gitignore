@@ -1,41 +1,39 @@
-# Prerequisites
-*.d
+# --------------------------------------------------------------------------
+# General Build/Generated Folder Exclusion
+# --------------------------------------------------------------------------
+Builds/
+.vs/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# --------------------------------------------------------------------------
+# Visual Studio / C++ Artifacts
+# --------------------------------------------------------------------------
+# Files that caused the "Large files detected" error:
+*.ipch
+*.VC.db
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
+# Other common Visual Studio artifacts
+*.suo
+*.user
 *.pdb
+*.obj
+*.aps
+*.ncb
+*.tlog
+*.log
+*.sdf
+*.idb
+*.iobj
+*.o
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Executables, Libraries, and Deployment Files
+[Bb]in/
+[Oo]bj/
 *.exe
-*.out
+*.dll
+*.lib
+*.exp
+*.ilk
+*.dylib
+*.so
+*.a
 *.app
-
-# debug information files
-*.dwo
